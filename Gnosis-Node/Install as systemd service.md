@@ -8,6 +8,13 @@ wget https://github.com/NethermindEth/nethermind/releases/download/1.14.0/nether
 unzip nethermind-linux-amd64-1.14.0-60f920b-20220822.zip -d nethermind
 ```
 
+## Increase the maximum number of open files
+```
+sudo bash -c 'echo "nethermind hard nofile 1000000" >> /etc/security/limits.d/nethermind.conf'
+sudo bash -c 'echo "nethermind hard nofile 1000000" >> /etc/security/limits.d/nethermind.conf'
+
+```
+
 ## Setup nethermind config
 ```
 nano ~/nethermind/configs/gnosis_archive_rpc.cfg
