@@ -10,7 +10,7 @@ cd nethermind
 
 ## Setup nethermind config
 ```
-nano ~/nethermind/config/gnosis_archive_rpc.cfg
+nano ~/nethermind/configs/gnosis_archive_rpc.cfg
 ```
 paste:
 ```
