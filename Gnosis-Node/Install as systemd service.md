@@ -2,10 +2,10 @@
 
 ## Download nethermind 
 ```
+cd ~/
 sudo apt-get update && sudo apt-get install libsnappy-dev libc6-dev libc6 unzip
 wget https://github.com/NethermindEth/nethermind/releases/download/1.14.0/nethermind-linux-amd64-1.14.0-60f920b-20220822.zip
 unzip nethermind-linux-amd64-1.14.0-60f920b-20220822.zip -d nethermind
-cd nethermind
 ```
 
 ## Setup nethermind config
