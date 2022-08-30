@@ -2,6 +2,9 @@
 Helpful stuff for the Graph’s multi-chain incentivized program
 
 ## Gnosis Archive Node
+
+[Install as systemd service](Gnosis-Node/Install%20as%20systemd%20service.md)
+
 Disk size: x.xTB (3TB recommended TBC)
 
 Sync time: >7d (TBC)
