@@ -9,9 +9,11 @@ CPUs: 8 cores
 
 RAM: 16GB
 
-Disk size: x.xTB (3TB recommended TBC)
+Disk size: 1.85TB @ Block 24051411 05.09.22 (3TB allocation recommended)
 
-Sync time: >7d (TBC)
+Sync time: ~7d
+
+Comments: Used ZFS RaidZ2 with compression=on. Compression ratio = 1.0. So compression won't give you any advantage here. Others were able to to sync within 2 days using ext4 raid0 with high IOPS drives.
 
 Ports:
 
