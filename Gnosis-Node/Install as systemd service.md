@@ -4,8 +4,8 @@
 ```
 cd ~/
 sudo apt-get update && sudo apt-get install libsnappy-dev libc6-dev libc6 unzip
-wget https://github.com/NethermindEth/nethermind/releases/download/1.14.0/nethermind-linux-amd64-1.14.0-60f920b-20220822.zip
-unzip nethermind-linux-amd64-1.14.0-60f920b-20220822.zip -d nethermind
+wget https://github.com/NethermindEth/nethermind/releases/download/1.14.2/nethermind-linux-amd64-1.14.2-08354f9-20220915.zip
+unzip nethermind-linux-amd64-1.14.2-08354f9-20220915.zip -d nethermind
 ```
 
 ## Increase the maximum number of open files
@@ -100,5 +100,19 @@ sudo systemctl start nethermind.service
 
  ## Check logs
 ```
+journalctl -u nethermind -f
+```
+
+## Updating
+
+# YOU NEED VERSION > 14.1 FOR THE MERGE!
+
+```
+cd ~/
+wget https://github.com/NethermindEth/nethermind/releases/download/1.14.2/nethermind-linux-amd64-1.14.2-08354f9-20220915.zip
+sudo systemctl stop nethermind.service
+unzip nethermind-linux-amd64-1.14.2-08354f9-20220915.zip -d nethermind
+# You can overwrite all by pressing "A"
+sudo systemctl start nethermind.service
 journalctl -u nethermind -f
 ```
