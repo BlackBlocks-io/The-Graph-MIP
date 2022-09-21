@@ -52,7 +52,16 @@ paste:
     "Port": 8545,
     "EnabledModules": [
       "Eth",
-      "AccountAbstraction"
+      "AccountAbstraction",
+      "Subscribe",
+      "TxPool",
+      "Web3",
+      "Personal",
+      "Proof",
+      "Net",
+      "Parity",
+      "Health",
+      "Trace"
     ]
   }
 }
