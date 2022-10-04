@@ -15,7 +15,7 @@ https://thegraph.com/docs/en/
 
 Indexer(Agent,Service,CLI): https://github.com/graphprotocol/indexer
 
-Graph-Node:                 https://github.com/graphprotocol/indexer
+Graph-Node:                 https://github.com/graphprotocol/graph-node
 
 ### Graph infra stack setup guides
 
