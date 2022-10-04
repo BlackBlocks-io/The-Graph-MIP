@@ -1,6 +1,27 @@
 # The-Graph-MIP
 Helpful stuff for the Graph’s multi-chain incentivized program
 
+## Links
+
+### Explorer
+Official:   https://testnet.thegraph.com/
+
+Graphscan:  https://goerli.graphscan.io/#indexers
+
+### Docs
+https://thegraph.com/docs/en/
+
+### Github repos
+
+Indexer(Agent,Service,CLI): https://github.com/graphprotocol/indexer
+
+Graph-Node:                 https://github.com/graphprotocol/indexer
+
+### Graph infra stack setup guides
+
+Hypervisor/Bare metal:      https://docs.thegraph.academy/official-docs/indexer/testnet/graph-protocol-testnet-baremetal/1_architectureconsiderations
+Docker:                     https://github.com/StakeSquid/graphprotocol-testnet-docker
+
 ## Gnosis Archive Node
 
 [Install as systemd service](Gnosis-Node/Install%20as%20systemd%20service.md)
