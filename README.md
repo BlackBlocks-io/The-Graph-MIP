@@ -20,7 +20,8 @@ Graph-Node:                 https://github.com/graphprotocol/graph-node
 ### Graph infra stack setup guides
 
 Hypervisor/Bare metal:      https://docs.thegraph.academy/official-docs/indexer/testnet/graph-protocol-testnet-baremetal/1_architectureconsiderations
-Docker:                     https://github.com/StakeSquid/graphprotocol-testnet-docker
+
+Docker:                     https://github.com/StakeSquid/graphprotocol-testnet-docker 
 
 ## Gnosis Archive Node
 
